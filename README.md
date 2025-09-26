@@ -2,7 +2,7 @@
 
 A comprehensive sentiment analysis application built with Next.js frontend and FastAPI backend, featuring a BERT-based machine learning model for analyzing text sentiment across multiple platforms.
 
-## 🚀 Features
+##  Features
 
 ### Core Functionality
 - **Single Text Analysis**: Analyze sentiment of individual text inputs
@@ -19,7 +19,7 @@ A comprehensive sentiment analysis application built with Next.js frontend and F
 - **Data Visualization**: Charts and graphs for sentiment insights
 - **CSV Export**: Download analysis results
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Next.js 15** - React framework
@@ -39,13 +39,13 @@ A comprehensive sentiment analysis application built with Next.js frontend and F
 - **snscrape** - Social media scraping
 - **Pandas** - Data manipulation
 
-## 📋 Prerequisites
+##  Prerequisites
 
 - Node.js 18+ and npm/pnpm
 - Python 3.8+
 - CUDA-compatible GPU (optional, for faster inference)
 
-## 🚀 Installation
+##  Installation
 
 ### 1. Clone the Repository
 ```bash
@@ -72,7 +72,7 @@ pnpm install
 ### 4. Model Setup
 Ensure you have the BERT sentiment model in the `sentiment-model/` directory. The model should be compatible with Hugging Face transformers.
 
-## 🏃‍♂️ Running the Application
+##  Running the Application
 
 ### Start the Backend
 ```bash
@@ -89,7 +89,7 @@ pnpm dev
 ```
 The application will be available at `http://localhost:3000`
 
-## 📖 API Documentation
+##  API Documentation
 
 Once the backend is running, visit `http://localhost:8000/docs` for interactive API documentation.
 
@@ -99,7 +99,7 @@ Once the backend is running, visit `http://localhost:8000/docs` for interactive 
 - `GET /reddit/{query}` - Analyze Reddit posts
 - `GET /api/twitter/{query}` - Analyze Twitter posts
 
-## 🎯 Usage
+##  Usage
 
 ### Single Text Analysis
 1. Navigate to "Single Analysis" in the dashboard
@@ -121,7 +121,7 @@ Once the backend is running, visit `http://localhost:8000/docs` for interactive 
 2. Enter search terms
 3. Analyze sentiment of tweets
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 - **Sentiment Overview**: Visual summary of analysis results
 - **Recent Analyses**: History of previous analyses
@@ -129,7 +129,7 @@ Once the backend is running, visit `http://localhost:8000/docs` for interactive 
 - **Export Options**: Download results in various formats
 - **Dark/Light Mode**: Toggle between themes
 
-## 🔧 Configuration
+##  Configuration
 
 ### Reddit API Setup
 Update the Reddit credentials in `Backend/main.py`:
@@ -144,7 +144,7 @@ reddit = praw.Reddit(
 ### Model Configuration
 The BERT model is loaded from the `sentiment-model/` directory. Ensure your model files are properly placed there.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── app/                    # Next.js app directory
@@ -166,7 +166,7 @@ The BERT model is loaded from the `sentiment-model/` directory. Ensure your mode
 └── sentiment-model/     # BERT model files
 ```
 
-## 🤝 Contributing
+##  Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
@@ -174,11 +174,11 @@ The BERT model is loaded from the `sentiment-model/` directory. Ensure your mode
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - [Hugging Face](https://huggingface.co/) for the BERT model
 - [Next.js](https://nextjs.org/) for the React framework
@@ -186,7 +186,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Tailwind CSS](https://tailwindcss.com/) for styling
 - [Radix UI](https://www.radix-ui.com/) for components
 
-## 📞 Support
+##  Support
 
 If you encounter any issues or have questions, please open an issue on GitHub.
 
