@@ -27,3 +27,61 @@ yarn-error.log*
 next-env.d.ts
 
 results
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm / VSCode / IDE settings
+.idea/
+.vscode/
+
+# mypy / type checker
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Pytype
+.pytype/
+
+# Profiling data
+.prof
+
+# Local environment variables
+.env
+*.env
